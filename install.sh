@@ -55,7 +55,7 @@ git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 > /d
 
 #  Cloning Repository
 echo -e "${GREEN}-==Cloning Repository ...==-${NC}"
-git clone https://github.com/bmihovski/neovim-cpp.git > /dev/null 2>&1
+git clone https://github.com/Mihovska/neovim-cpp.git > /dev/null 2>&1
 # Navigate to the cloned directory
 cd neovim-cpp
 

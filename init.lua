@@ -11,8 +11,6 @@ local keymap = vim.api.nvim_set_keymap
 keymap("n", "<leader>d", "<cmd> CMakeDebug <CR>", { noremap = true, silent = true })
 keymap("n", "<leader>f", "<cmd> CMakeRun <CR>", { noremap = true, silent = true })
 keymap("n", "<leader>s", "<cmd> CMakeCloseExecutor <CR><cmd> CMakeCloseRunner <CR>", { noremap = true, silent = true })
--- copilot chat
-keymap("n", "<leader>a", "<cmd> CopilotChatToggle <CR>", { noremap = true, silent = true })
 -- telescope
 keymap("n", "<leader>g", "<cmd> Telescope git_files <CR>", { noremap = true, silent = true })
 -- dap ui icons

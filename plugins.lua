@@ -56,21 +56,6 @@ local plugins = {
     },
   },
   {
-    "CopilotC-Nvim/CopilotChat.nvim",
-    event = "VeryLazy",
-    branch = "canary",
-    dependencies = {
-      { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-      { "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
-    },
-    opts = {
-      debug = false, -- Disable debugging
-    },
-    build = function()
-      vim.cmd("UpdateRemotePlugins") -- You need to restart to make it works
-    end,
-  },
-  {
     "jay-babu/mason-nvim-dap.nvim",
     event = "VeryLazy",
     dependencies = {
