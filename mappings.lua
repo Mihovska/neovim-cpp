@@ -3,7 +3,7 @@ local M = {}
 M.dap = {
   plugin = true,
   n = {
-    ["<leader>db"] = {
+    ["<leader>e-"] = {
       "<cmd> DapToggleBreakpoint <CR>",
       "Add breakpoint at line",
       opts = { }

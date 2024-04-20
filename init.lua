@@ -13,6 +13,9 @@ keymap("n", "<leader>a", "<cmd> CMakeRun <CR>", { noremap = true, silent = true 
 keymap("n", "<leader>i", "<cmd> CMakeCloseExecutor <CR><cmd> CMakeCloseRunner <CR>", { noremap = true, silent = true })
 -- telescope
 keymap("n", "<leader>,", "<cmd> Telescope git_files <CR>", { noremap = true, silent = true })
+keymap("n", "<leader><leader>", "<cmd> lua require('telescope').extensions.recent_files.pick() <CR>", { noremap = true, silent = true })
+-- cody chat
+keymap("n", "<leader>c", "<cmd> CodyToggle <CR>", { noremap = true, silent = true })
 -- dap ui icons
 vim.fn.sign_define('DapBreakpoint', { text='🟤', texthl='DapBreakpoint', linehl='DapBreakpoint', numhl='DapBreakpoint' })
 vim.fn.sign_define('DapBreakpointCondition', { text='🞂', texthl='DapBreakpoint', linehl='DapBreakpoint', numhl='DapBreakpoint' })
